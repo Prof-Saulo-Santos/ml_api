@@ -24,5 +24,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/ml_api:latest
+          tags: ghcr.io/prof-saulo-santos/ml_api:latest
+
 
