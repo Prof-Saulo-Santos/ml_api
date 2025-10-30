@@ -24,7 +24,7 @@ class IrisData(BaseModel):
 # 4️⃣ Rota raiz
 @app.get("/")
 def home():
-    return {"mensagem": "API de Machine Learning ativa! Acesse /docs para testar."}
+    return {"mensagem": "Olá! Esta é a versão atualizada da API ML."}
 
 # 5️⃣ Rota de previsão
 @app.post("/predict")
